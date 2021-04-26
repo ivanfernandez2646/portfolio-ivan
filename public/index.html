@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portolio Iván</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>Welcome</h1>
+    @@include('./partial/header/header.html')
+    <main>
+        @@include('./partial/short_intro/short_intro.html')
+        @@include('./partial/about_me/about_me.html')
+        @@include('./partial/projects/projects.html')
+        @@include('./partial/contact/contact.html')
+    </main>
+    @@include('./partial/footer/footer.html')
 </body>
 </html>
