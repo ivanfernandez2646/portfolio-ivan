@@ -1,4 +1,14 @@
-<div class="project-card">
-    <h3>@@name</h3>
-    <p>@@description</p>
+<div class="project-list-item">
+    <div>
+        <div class="project-list-item-title-container">
+            <h3>@@name</h3>
+            <div>
+                @@for (var i = 0; i < technologiesIcons.length; i++) {
+                    <img src=`+technologiesIcons[i]+` alt="technologyIcon">
+                }
+            </div>
+        </div>
+        <p>@@description</p>
+    </div>
+    <a href=@@githubLink target="_blank"><button>View on Github!!</button></a>
 </div>

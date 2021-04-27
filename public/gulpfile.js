@@ -36,7 +36,7 @@ async function includeHTML(){
     ])
     .pipe(fileinclude({
       prefix: '@@',
-      basepath: '@file'
+      basepath: '@file',
     }))
     .pipe(gulp.dest(paths.scripts.dest));
 }
