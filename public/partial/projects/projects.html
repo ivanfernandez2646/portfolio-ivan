@@ -1,3 +1,13 @@
-<div class="projects">
+<div id="projects">
     <h2>Projects</h2>
+    <div class="project-list">
+        @@include('./project-card.html', {
+            "name": "Besteeth", 
+            "description": "Es un proyecto realizado bajo demanda"
+        })
+        @@include('./project-card.html', {
+            "name": "Biblioteca FEGA", 
+            "description": "Es un proyecto realizado bajo no demanda"
+        })
+    </div>
 </div>
