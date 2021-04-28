@@ -14,7 +14,10 @@ body {
     --color-secondary: #1A4A5A;
     --color-buttons: #C1E1A7;
     --color-white: #fff;
+
     --header-height: 5rem;
+    --width-about-me_projects-container: 70%;
+    --width-about-me_projects-container-RESPONSIVE: 80%;
 }
 
 .text-center {
@@ -29,10 +32,19 @@ a:active {
     text-decoration: none;
 }
 
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-margin-top: var(--header-height);
+}
+
 button,
 input[type=submit] {
     cursor: pointer;
     min-height: 2.5rem;
+    min-width: 10rem;
     padding-left: 1rem;
     padding-right: 1rem;
     color: var(--color-white);
@@ -101,14 +113,6 @@ header {
 }
 
 /* SHORT INTRO */
-#short-intro {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    scroll-margin-top: var(--header-height);
-}
-
 #short-intro img {
     margin-top: 1rem;
     height: 10rem;
@@ -117,14 +121,6 @@ header {
 }
 
 /* ABOUT ME */
-#about-me {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    scroll-margin-top: var(--header-height);
-}
-
 .about-me-description {
     display: flex;
     flex-direction: column;
@@ -141,7 +137,7 @@ header {
 .about-me-skills {
     position: relative;
     top: -8rem;
-    width: 70%;
+    width: var(--width-about-me_projects-container);
     display: flex;
     justify-content: center;
     background-color: var(--color-white);
@@ -178,13 +174,8 @@ header {
 #projects {
     position: relative;
     top: -4rem;
-    width: 70%;
+    width: var(--width-about-me_projects-container);
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    scroll-margin-top: var(--header-height);
 }
 
 .project-list {
@@ -220,15 +211,48 @@ header {
 #contact {
     width: 50%;
     margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    scroll-margin-top: var(--header-height);
 }
 
 #contact img{
     height: 3.5rem;
     width: auto;
     filter: invert(43%) sepia(97%) saturate(391%) hue-rotate(131deg) brightness(86%) contrast(89%);
+}
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 950px) {
+    .about-me-skills, #projects{
+        width: var(--width-about-me_projects-container-RESPONSIVE);
+    }
+    
+    .project-list-item{
+        column-gap: 1rem;
+    }
+
+    .project-list-item-content{
+        width: 70%;
+    }
+}
+
+
+@media only screen and (max-width: 750px) {
+    .about-me-skills{
+        flex-direction: column;
+    }
+
+    .skill{
+        border-right: none;
+        border-bottom: 1px solid black;
+    }
+
+    .skill:last-child{
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .project-list-item{
+        flex-direction: column;
+    }
 }
