@@ -32,7 +32,7 @@ a:active {
     text-decoration: none;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -213,7 +213,7 @@ header {
     margin: 0 auto;
 }
 
-#contact img{
+#contact img {
     height: 3.5rem;
     width: auto;
     filter: invert(43%) sepia(97%) saturate(391%) hue-rotate(131deg) brightness(86%) contrast(89%);
@@ -222,46 +222,60 @@ header {
 
 /* RESPONSIVE */
 @media only screen and (max-width: 950px) {
-    .about-me-skills, #projects{
+
+    .about-me-skills,
+    #projects {
         width: var(--width-about-me_projects-container-RESPONSIVE);
     }
-    
-    .project-list-item{
+
+    .project-list-item {
         column-gap: 1rem;
     }
 
-    .project-list-item-content{
+    .project-list-item-content {
         width: 70%;
     }
 }
 
 
 @media only screen and (max-width: 750px) {
-    .about-me-skills{
+    .about-me-skills {
         flex-direction: column;
     }
 
-    .skill{
+    .skill {
         border-right: none;
         border-bottom: 1px solid black;
     }
 
-    .skill:last-child{
+    .skill:last-child {
         border-bottom: none;
     }
 
-    .project-list-item-title-container{
+    .project-list-item-title-container {
         flex-direction: column;
         align-items: unset;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .project-list-item{
+    header {
+        justify-content: space-between;
+    }
+
+    .project-list-item {
         flex-direction: column;
     }
 
-    .project-list-item-title-container{
+    .project-list-item-title-container {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .menu-nav-item {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        font-size: 0.8rem;
     }
 }
