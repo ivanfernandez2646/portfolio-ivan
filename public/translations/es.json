@@ -1,0 +1,22 @@
+{
+    "title": "Iván Fernández DEV",
+    "aboutMe": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "aboutMeFirstParagraph": "Desde pequeñito me llamó la atención el mundo de la informática. Era el típico amigo y compañero que sabía cacharrear con los aparatos. Tras cursar un CFGM en Sistemas Microinformáticos y Redes, decidí apostar por el mundo de la programación. Cursé el CFGS en Desarrollo de Apps Multiplataforma, y actualmente ya cuento con poco más de un año de experiencia. A nivel personal, estoy encantando con mi decisión.",
+    "aboutMeSecondParagraph": "Siempre me he considerado una persona muy perfeccionista, centrada y con gusto por las cosas bien hechas. Esto se puede extrapolar al resto de mis aficiones entre las cuales destacaría el deporte, la música y un estilo de vida saludable.",
+    "technologies": "Tecnologías:",
+    "toolsAndUses": "Herramientas y usos:",
+    "frontendDeveloperText": "Pese a no ser lo que comencé a realizar en un principio, me está encantando e intento mejorar mis conocimientos frontend día a día.",
+    "backendDeveloperText": "El comienzo de mi carrera profesional fue de .NET Developer del que guardo una muy buena experiencia.",
+    "androidDeveloperText": "Mi primer contacto real durante mis enseñanzas fue el de realizar aplicaciones Android usando Java. Sinceramente, es otro mundo que me encanta aunque actualmente no le dedique mucho de mi tiempo.",
+    "fegaDescription": "Triple proyecto web con .NET.",
+    "besteethDescription": "Proyecto multiplataforma realizado para el fin de ciclo formativo. Calificado con un 10.",
+    "datingAppDescription": "Web para conocer personas.",
+    "cineDescription": "Web para reservar entradas de cine.",
+    "videogamesDescription": "Mi iniciación a PHP. Con ello descubrí que PHP no es lo que más me llama la atención.",
+    "calculatorDescription": "Pequeña calculadora realizada durante una tarde lluviosa de Domingo.",
+    "viewOnGithub": "Ver en Github",
+    "contactParagraph": "Puedes encontrarme en las siguientes redes. No dudes en contactar conmigo ya sea por motivos laborales, inquietudes o simplemente charlar un rato.",
+    "footerParagraph": "Desarrollado con &#x1F9E1 por mí &copy; 2021"
+}

@@ -1,13 +1,21 @@
 <div class="skill">
-    <img src=../../assets/skills/@@icon.svg alt=@@icon/>
+    <img src=../../assets/skills/@@labelIcon.svg alt=@@labelIcon/>
     <h3>@@title</h3>
-    <p>@@subtitle</p>
+    @@if (labelIcon === 'front-end') {
+        <p>{{ frontendDeveloperText | translate }}</p>
+    }
+    @@if (labelIcon === 'back-end') {
+        <p>{{ backendDeveloperText | translate }}</p>
+    }
+    @@if (labelIcon === 'android') {
+        <p>{{ androidDeveloperText | translate }}</p>
+    }
     <div class="skill-technologies">
-        <p class="skill-label">Tecnologías:</p>
+        <p class="skill-label">{{ technologies | translate }}</p>
         <p>@@technologies</p>
     </div>
     <div class="skill-tools">
-        <p class="skill-label">Herramientas y usos:</p>
+        <p class="skill-label">{{ toolsAndUses | translate }}</p>
         <p>@@tools</p>
     </div>
 </div>

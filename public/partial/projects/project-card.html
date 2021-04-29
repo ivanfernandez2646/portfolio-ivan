@@ -8,7 +8,24 @@
                 }
             </div>
         </div>
-        <p>@@description</p>
+        @@if (label === 'fega') {
+            <p>{{ fegaDescription | translate }}</p>
+        }
+        @@if (label === 'besteeth') {
+            <p>{{ besteethDescription | translate }}</p>
+        }
+        @@if (label === 'datingApp') {
+            <p>{{ datingAppDescription | translate }}</p>
+        }
+        @@if (label === 'cine') {
+            <p>{{ cineDescription | translate }}</p>
+        }
+        @@if (label === 'videogames') {
+            <p>{{ videogamesDescription | translate }}</p>
+        }
+        @@if (label === 'calculator') {
+            <p>{{ calculatorDescription | translate }}</p>
+        }
     </div>
-    <a href=@@githubLink target="_blank"><button>View on Github!!</button></a>
+    <a href=@@githubLink target="_blank"><button>{{ viewOnGithub | translate }}</button></a>
 </div>

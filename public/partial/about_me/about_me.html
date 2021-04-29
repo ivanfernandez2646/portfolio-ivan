@@ -2,44 +2,25 @@
     <div class="about-me-description">
         <h2>About me</h2>
         <div class="about-me-description-text">
-            <p>Desde pequeñito me llamó la atención el mundo de la informática. Era el típico amigo
-                y
-                compañero que sabía
-                cacharrear con los aparatos. Tras cursar un CFGM en Sistemas
-                Microinformáticos y Redes, decidí apostar por el mundo de la programación. Cursé el CFGS en Desarrollo
-                de
-                Apps
-                Multiplataforma, y actualmente ya cuento con poco más de un año de experiencia. A nivel personal estoy
-                encantando con mi decisión.</p>
-            <p>Siempre me he considerado una persona muy perfeccionista, centrada y con gusto por
-                las
-                cosas bien hechas.
-                Esto se
-                puede extrapolar al resto de mis aficiones entre las cuales destacaría el deporte, la música y un estilo
-                de
-                vida
-                saludable.
-            </p>
+            <p>{{ aboutMeFirstParagraph | translate }}</p>
+            <p>{{ aboutMeSecondParagraph | translate }}</p>
         </div>
 
     </div>
     <div class="about-me-skills">
         @@loop('./skills-about_me.html', [{
-            "icon": "front-end",
+            "labelIcon": "front-end",
             "title": "Front-end Developer",
-            "subtitle": "Pese a no ser lo que comencé a realizar en un principio, me está encantando e intento mejorar mis conocimientos frontend día a día.",
             "technologies": "Javascript, Typescript, ReactJS, Angular, HTML, CSS, jQuery, AJAX",
             "tools": "VSCode, WebStorm, MaterialUI"
         }, {
-            "icon": "back-end",
+            "labelIcon": "back-end",
             "title": "Back-end Developer",
-            "subtitle": "El comienzo de mi carrera profesional fue de .NET Developer del que guardo una muy buena experiencia.",
             "technologies": ".NET, .NET Core, C#, VB.NET, Entity Framework, IIS",
             "tools": "Visual Studio 2019, SQL Server"
         }, {
-            "icon": "android",
+            "labelIcon": "android",
             "title": "Android Developer",
-            "subtitle": "Mi primer contacto real durante mis enseñanzas fue el de realizar aplicaciones Android usando Java. Sinceramente, es otro mundo que me encanta aunque actualmente no le dedique mucho de mi tiempo.",
             "technologies": "Android, Java, Google API",
             "tools": "Android Studio, MVVM Pattern, AsyncTask, XMLRPC, RecyclerView, ConstraintLayout"
         }])
