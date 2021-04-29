@@ -249,10 +249,19 @@ header {
     .skill:last-child{
         border-bottom: none;
     }
+
+    .project-list-item-title-container{
+        flex-direction: column;
+        align-items: unset;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .project-list-item{
         flex-direction: column;
+    }
+
+    .project-list-item-title-container{
+        text-align: center;
     }
 }
