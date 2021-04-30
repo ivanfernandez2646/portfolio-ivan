@@ -7,8 +7,8 @@ const translate = require('gulp-translator');
 const paths = {
   scripts: {
     src: '../',
-    dest: '../build/',
-    imgDest: '../build/assets'
+    dest: '../dist/',
+    imgDest: '../dist/assets'
   }
 };
 
