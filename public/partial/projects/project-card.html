@@ -4,7 +4,7 @@
             <h3>@@name</h3>
             <div>
                 @@for (var i = 0; i < technologiesIcons.length; i++) {
-                    <img src=assets/projects/`+technologiesIcons[i]+`.svg alt=`+technologiesIcons[i]+`>
+                    <img src="assets/projects/`+technologiesIcons[i]+`.svg" alt="`+technologiesIcons[i]+`">
                 }
             </div>
         </div>
@@ -28,9 +28,9 @@
         }
     </div>
     <div class="project-list-item-buttons">
-        <a href=@@githubLink target="_blank"><button>{{ viewOnGithub | translate }}</button></a>
+        <a href="@@githubLink" target="_blank"><button>{{ viewOnGithub | translate }}</button></a>
         @@if (label !== 'fega' && label !== 'videogames') {
-            <a href=@@demoLink target="_blank"><button>{{ demo | translate }}</button></a>
+            <a href="@@demoLink" target="_blank"><button>{{ demo | translate }}</button></a>
         }
     </div>
 </div>
