@@ -13,7 +13,6 @@ body {
     --color-primary: #148D8D;
     --color-secondary: #1A4A5A;
     --color-buttons: #C1E1A7;
-    --color-white: #fff;
 
     --header-height: 5rem;
     --width-about-me_projects-container: 70%;
@@ -47,7 +46,7 @@ input[type=submit] {
     min-width: 10rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: var(--color-white);
+    color: white;
     background-color: var(--color-primary);
     border: none;
     border-radius: 2rem;
@@ -104,7 +103,7 @@ header {
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
-    color: var(--color-white);
+    color: white;
 }
 
 .menu-nav-item:hover {
@@ -140,7 +139,7 @@ header {
     width: var(--width-about-me_projects-container);
     display: flex;
     justify-content: center;
-    background-color: var(--color-white);
+    background-color: white;
     margin: 1rem;
     border: 1px solid black;
     border-radius: 1rem;
@@ -207,6 +206,12 @@ header {
     width: auto;
 }
 
+.project-list-item-buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
 /* CONTACT */
 #contact {
     width: 50%;
@@ -219,6 +224,11 @@ header {
     filter: invert(43%) sepia(97%) saturate(391%) hue-rotate(131deg) brightness(86%) contrast(89%);
 }
 
+#contact-cv-paragraph{
+    background-color: var(--color-secondary);
+    color: white;
+    padding: 0.5rem;
+}
 
 /* RESPONSIVE */
 @media only screen and (max-width: 950px) {

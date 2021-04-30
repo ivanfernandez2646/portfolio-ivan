@@ -27,5 +27,10 @@
             <p>{{ calculatorDescription | translate }}</p>
         }
     </div>
-    <a href=@@githubLink target="_blank"><button>{{ viewOnGithub | translate }}</button></a>
+    <div class="project-list-item-buttons">
+        <a href=@@githubLink target="_blank"><button>{{ viewOnGithub | translate }}</button></a>
+        @@if (label !== 'fega' && label !== 'videogames') {
+            <a href=@@demoLink target="_blank"><button>{{ demo | translate }}</button></a>
+        }
+    </div>
 </div>

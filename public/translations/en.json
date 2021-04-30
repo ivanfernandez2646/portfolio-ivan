@@ -1,10 +1,10 @@
 {
     "title": "Iván Fernández DEV",
-    "labelName": "My name is Iván and I'm a...",
+    "labelName": "IVÁN FERNÁNDEZ",
     "aboutMe": "About me",
     "projects": "Projects",
     "contact": "Contact",
-    "aboutMeFirstParagraph": "Since I was little, I was struck by the world of computing. I was the typical friend and colleague who knew how to tinker with the gadgets. After studying a CFGM in Microcomputer Systems and Networks, I decided to bet on the world of programming. I studied the CFGS in Multiplatform Apps Development, and currently I already have just over a year of experience. On a personal level, I am delighted with my decision.",
+    "aboutMeFirstParagraph": "Since I was little, I was struck by the world of computing. I was the typical friend and colleague who used to tinker with the gadgets. After studying a CFGM in Microcomputer Systems and Networks, I decided to bet on the world of programming. I studied the CFGS in Multiplatform Apps Development, and currently I already have just over a year of experience. On a personal level, I am delighted with my decision.",
     "aboutMeSecondParagraph": "I have always considered myself a very perfectionist person, focused and with a taste for things well done. This can be extrapolated to the rest of my hobbies, among which I would highlight sports, music and a healthy lifestyle.",
     "technologies": "Technologies:",
     "toolsAndUses": "Tools and uses:",
@@ -13,11 +13,13 @@
     "androidDeveloperText": "My first real contact during my teachings was to make Android applications using Java. Honestly, it's another world that I love even though I don't currently dedicate much of my time to it.",
     "fegaDescription": "Triple web project with .NET.",
     "besteethDescription": "Multiplatform project carried out for the end of the training cycle. Qualified with a 10.",
-    "datingAppDescription": "Web to meet people.",
+    "datingAppDescription": "Web to meet people. RESPONSIVE HASN'T BE DEVELOPED YET",
     "cineDescription": "Web to book cinema tickets.",
     "videogamesDescription": "My introduction to PHP. With this I discovered that PHP is not what most catches my attention.",
     "calculatorDescription": "Little calculator made on a rainy Sunday afternoon.",
     "viewOnGithub": "View on Github",
-    "contactParagraph": "You can find me in the following networks. Do not hesitate to contact me either for work reasons, concerns or just chat for a while.",
+    "demo": "Demo",
+    "contactParagraph": "I hope you have briefly seen my small but intense journey. Do not hesitate to contact me either for work reasons, concerns or just chat for a while.",
+    "seeCV": "See my CV",
     "footerParagraph": "Developed with &#x1F9E1 by me &copy; 2021"
 }
