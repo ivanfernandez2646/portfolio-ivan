@@ -1,2 +1,2 @@
 # portfolio-ivan
-portfolio-ivan WIP
+https://ivanfernandez2646.github.io/portfolio-ivan/
