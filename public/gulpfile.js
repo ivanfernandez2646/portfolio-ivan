@@ -1,4 +1,3 @@
-
 const gulp = require('gulp');
 const fileinclude = require('gulp-file-include');
 const server = require('browser-sync').create();
@@ -52,6 +51,6 @@ exports.default = async function () {
     }
   });
   buildAndReload();
-  gulp.watch(["*.html", "*.css", "partial/**/*.html", "assets/**/*", "translations/**/*"], 
+  gulp.watch(["*.html", "*.css", "partial/**/*.html", "assets/**/*", "translations/**/*"],
     gulp.series(buildAndReload));
 };

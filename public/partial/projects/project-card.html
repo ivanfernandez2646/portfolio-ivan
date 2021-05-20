@@ -3,34 +3,37 @@
         <div class="project-list-item-title-container">
             <h3>@@name</h3>
             <div>
-                @@for (var i = 0; i < technologiesIcons.length; i++) {
-                    <img src="assets/projects/`+technologiesIcons[i]+`.svg" alt="`+technologiesIcons[i]+`">
-                }
+                @@for (var i = 0; i < technologiesIcons.length; i++) { <img
+                    src="assets/projects/`+technologiesIcons[i]+`.svg" alt="`+technologiesIcons[i]+`">
+                    }
             </div>
         </div>
         @@if (label === 'fega') {
-            <p>{{ fegaDescription | translate }}</p>
+        <p>{{ fegaDescription | translate }}</p>
         }
         @@if (label === 'besteeth') {
-            <p>{{ besteethDescription | translate }}</p>
+        <p>{{ besteethDescription | translate }}</p>
         }
         @@if (label === 'datingApp') {
-            <p>{{ datingAppDescription | translate }}</p>
+        <p>{{ datingAppDescription | translate }}</p>
         }
         @@if (label === 'cine') {
-            <p>{{ cineDescription | translate }}</p>
+        <p>{{ cineDescription | translate }}</p>
         }
         @@if (label === 'videogames') {
-            <p>{{ videogamesDescription | translate }}</p>
+        <p>{{ videogamesDescription | translate }}</p>
         }
         @@if (label === 'calculator') {
-            <p>{{ calculatorDescription | translate }}</p>
+        <p>{{ calculatorDescription | translate }}</p>
+        }
+        @@if (label === 'contacts') {
+        <p>{{ contactsDescription | translate }}</p>
         }
     </div>
     <div class="project-list-item-buttons">
         <a href="@@githubLink" target="_blank"><button>{{ viewOnGithub | translate }}</button></a>
         @@if (label !== 'fega' && label !== 'videogames') {
-            <a href="@@demoLink" target="_blank"><button>{{ demo | translate }}</button></a>
+        <a href="@@demoLink" target="_blank"><button>{{ demo | translate }}</button></a>
         }
     </div>
 </div>
