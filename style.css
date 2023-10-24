@@ -150,6 +150,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    border-radius: 1rem;
     border-right: 1px solid black;
 }
 
@@ -167,6 +168,10 @@ header {
     font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-primary);
+}
+
+.skill-backend {
+    background-color: beige;
 }
 
 /* PROJECTS */
