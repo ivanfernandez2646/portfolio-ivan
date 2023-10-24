@@ -4,21 +4,25 @@
         <div class="about-me-description-text">
             <p>{{ aboutMeFirstParagraph | translate }}</p>
             <p>{{ aboutMeSecondParagraph | translate }}</p>
+            <p>{{ aboutMeThirdParagraph | translate }}</p>
         </div>
 
     </div>
     <div class="about-me-skills">
-        @@loop('./skills-about_me.html', [{
-        "labelIcon": "front-end",
-        "title": "Front-end Developer",
-        "technologies": "Javascript, Typescript, Angular, ReactJS, HTML, CSS, jQuery, AJAX",
+        @@loop('./skills-about_me.html', [
+        {
+            "labelIcon": "backend",
+            "title": "Backend Developer",
+            "technologies": "Javascript & Typescript (Node.js), AWS (Lambda, S3), Jest, Gitlab, Bitbucket",
+            "tools": "VSCode, Microsoft Teams, Slack, Jira"
+        },
+        {
+        "labelIcon": "frontend",
+        "title": "Frontend Developer",
+        "technologies": "Javascript, Typescript, ReactJS, Angular",
         "tools": "VSCode, WebStorm, MaterialUI"
-        }, {
-        "labelIcon": "back-end",
-        "title": "Back-end Developer",
-        "technologies": ".NET, .NET Core, C#, VB.NET, Entity Framework, IIS",
-        "tools": "Visual Studio 2019, SQL Server"
-        }, {
+        }, 
+        {
         "labelIcon": "android",
         "title": "Android Developer",
         "technologies": "Android, Java, Google API",

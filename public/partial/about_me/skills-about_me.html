@@ -1,10 +1,10 @@
-<div class="skill">
+<div class="skill skill-@@labelIcon">
     <img src="assets/skills/@@labelIcon.svg" alt=@@labelIcon/>
     <h3>@@title</h3>
-    @@if (labelIcon === 'front-end') {
+    @@if (labelIcon === 'frontend') {
         <p>{{ frontendDeveloperText | translate }}</p>
     }
-    @@if (labelIcon === 'back-end') {
+    @@if (labelIcon === 'backend') {
         <p>{{ backendDeveloperText | translate }}</p>
     }
     @@if (labelIcon === 'android') {

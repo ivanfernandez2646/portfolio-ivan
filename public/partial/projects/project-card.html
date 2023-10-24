@@ -8,32 +8,30 @@
                     }
             </div>
         </div>
-        @@if (label === 'fega') {
-        <p>{{ fegaDescription | translate }}</p>
+        @@if (label === 'gymRecords') {
+        <p>{{ gymRecordsDescription | translate }}</p>
         }
         @@if (label === 'besteeth') {
         <p>{{ besteethDescription | translate }}</p>
         }
-        @@if (label === 'datingApp') {
-        <p>{{ datingAppDescription | translate }}</p>
+        @@if (label === 'quoteOfTheDay') {
+        <p>{{ quoteOfTheDayDescription | translate }}</p>
         }
-        @@if (label === 'cine') {
-        <p>{{ cineDescription | translate }}</p>
+        @@if (label === 'dailyTrends') {
+        <p>{{ dailyTrendsDescription | translate }}</p>
         }
-        @@if (label === 'videogames') {
-        <p>{{ videogamesDescription | translate }}</p>
+        @@if (label === 'countryList') {
+        <p>{{ countryListDescription | translate }}</p>
         }
-        @@if (label === 'calculator') {
-        <p>{{ calculatorDescription | translate }}</p>
+        @@if (label === 'bankApi') {
+        <p>{{ bankApiDescription | translate }}</p>
         }
-        @@if (label === 'contacts') {
-        <p>{{ contactsDescription | translate }}</p>
+        @@if (label === 'simpleChat') {
+        <p>{{ simpleChatDescription | translate }}</p>
         }
     </div>
     <div class="project-list-item-buttons">
         <a href="@@githubLink" target="_blank"><button>{{ viewOnGithub | translate }}</button></a>
-        @@if (label !== 'fega' && label !== 'videogames') {
         <a href="@@demoLink" target="_blank"><button>{{ demo | translate }}</button></a>
-        }
     </div>
 </div>
